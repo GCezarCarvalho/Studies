@@ -9,16 +9,40 @@ body{
 
 .jumbotron{
     color:#2c3e50;
+    background: #ecf0f1;
 }
 
 .navbar-inverse{
-    color: #2c3e50;
+    background: #2c3e50;
 }
 
-.nav.navbar .navbar-inverse .navbar-fixed-top{
+.navbar-inverse .navbar-nav>li>a{
     color:  white;
 }
 
-.nav .navbar-nav{
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+#content{
+    text-align: center;
+    padding-top: 15%;
+}
+
+#homebackground{
+    background: url("file:///c:/Users/Guilherme/Documents/GitHub/Studies/IMAGENS/homephoto.jpg");
+    background-size: cover;
+}
+hr { 
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #ecf0f1, #2c3e50, #ecf0f1);
+    background-image: -moz-linear-gradient(left, #ecf0f1, #2c3e50, #ecf0f1);
+    background-image: -ms-linear-gradient(left, #ecf0f1, #2c3e50, #ecf0f1);
+    background-image: -o-linear-gradient(left, #ecf0f1, #2c3e50, #ecf0f1); 
+    width: 25%;
+  }
+
+.homeWords{
     color: white;
 }
