@@ -1,5 +1,9 @@
 body{
     padding-top: 70px;
+    background: url("file:///c:/Users/Guilherme/Documents/GitHub/Studies/IMAGENS/homephoto.jpg");
+    background-size: cover;
+    font-family: 'Six Caps', sans-serif;
+    font-size:  25px;
 }
 
 #firstPhoto{
@@ -29,10 +33,7 @@ body{
     padding-top: 15%;
 }
 
-#homebackground{
-    background: url("file:///c:/Users/Guilherme/Documents/GitHub/Studies/IMAGENS/homephoto.jpg");
-    background-size: cover;
-}
+
 hr { 
     border: 0; 
     height: 1px; 
